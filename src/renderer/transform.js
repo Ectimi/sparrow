@@ -1,4 +1,4 @@
-import { applyTransform, createSVGElement, mount } from './utils';
+import { applyTransform, createSVGElement, mount } from '../utils';
 
 export function transform(type, context, ...params) {
     // type 是希望的变换种类：scale，translate，rotate 等
